@@ -297,6 +297,7 @@ class RaumfeldHost:
             device_loc = device_itm["@location"]
             device_type = device_itm["@type"]
             device_udn = device_itm["@udn"]
+            device_name = "unknown"
             if "#text" in device_itm:
                 device_name = device_itm["#text"]
             else:
